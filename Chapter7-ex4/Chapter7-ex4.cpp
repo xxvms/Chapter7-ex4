@@ -12,6 +12,7 @@ int main()
 	int decision = 0;
 	std::cout << "How many numbers do you want to type? max 100: ";
 	std::cin >> decision;
+	//extra comments :)
 	for (int i = 0; i < decision; i++)
 	{
 		std::cout << "Please type nr " << i + 1 << ": ";
